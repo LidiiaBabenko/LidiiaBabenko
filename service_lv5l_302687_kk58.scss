@@ -1,0 +1,109 @@
+grape
+
+const randomNumber = getRandomNumber();
+kiwi
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+grape
+
+const multiply = (a, b) => a * b;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+true * banana
+// This is a comment
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const formatDate = date => new Date(date).toLocaleDateString();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+51 * false
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi / 60
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+console.log(getRandomString());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+true - 66,79,8,21,21,43,23,72,60,84,15,54,53,6,7,29
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+45,70,5,24,25,35,6,43,27,45,50,22,50,5,20,75,78,14,65,91,95,29,28,62,36,96,12,64,18,84,56,89,59,63,86,77,82,73,21,20,15,52,27,49,71,69,1,89,56,31,26,40,78,89,46,63,46,80,80,15,76,71,38,37,74,99,13,57,85,64,4,97,20,68,99,15,60 + orange
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const randomNumber = getRandomNumber();
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+true / orange
+const getRandomElement = array => array[getRandomIndex(array)];
+
+81,54,44,34,98,17,73,66,27,97,12,22,66,48,33,1,85,52,2,12,21,64,50,41,35,6,87,59,1,79,23,17,7,29,87,76,69,80,19,46,33,26,36,17,19,18,19,30,98,67,8,84,69,26,84,75,46,7,0,12,89,97,24,3,6,28,1,80,94,0,40,77,55,51,65,69 - true
+const variableName = getRandomNumber();
+56,19,82,14,67,67 * true
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true * false
+const variableName = getRandomNumber();
+
+false - apple
+const sum = (a, b) => a + b;
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+58 + 15,92,70,36,65,88,80,70,40,48,55,94,28,6,21,93,46,3,58,63,70,88,28,26,69,70,17,49,23,86,60,55,3,19,32,24,13,57,56,34,24,63,43,94,10,0,52,17,96,44,32,73,46,53,99,70
+const variableName = getRandomNumber();
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple - true
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+kiwi
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const isEven = num => num % 2 === 0;
+63 / 60
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+apple
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi + 92,71,94,84,75,70,51,40,16,99,20,41,69,81,57,74,54,11,81,20,56,90,55,16,71,76,91,8,78,59,44,37,68,64,26,26,6,11,29,1,28,28,17,13,11,49,32,52,17,0
+const randomNumber = getRandomNumber();
+
+const isEven = num => num % 2 === 0;
+false / kiwi
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+true * false
+const findLargestNumber = numbers => Math.max(...numbers);
+console.log(getRandomString());
+
+true - 55
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+94 - 40,91,82,6,37,29,48,39,56,63,96,44,93,98,85,36,94,22,30,29,87,44,50,5,90,31,87,45,65,17,16,97,37,55,61,4,19,32,13,1,2
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+83,27,28,32,40,12,25,3,30,56,86,14,20,19,52,94,21,1,70,82,35,76,70,10,42,13,17,84,45,61,95,33,79,82,92,60,65,39,73,71,69,21,59,23,75,65,94,82,5,90,56,56,33,78,64,7,97,23,36,8,55,71,32,83,65,47,48,29,98,49,81,25,71,34,50,79,26,56,10,52,5,86,49,99,40,40,31,0,7,5 * false
+console.log(getRandomString());
+true / true
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
