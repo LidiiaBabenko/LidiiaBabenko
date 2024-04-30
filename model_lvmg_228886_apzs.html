@@ -1,0 +1,28 @@
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const squareRoot = num => Math.sqrt(num);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+true / grape
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false * 8
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+apple
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+true * orange
+
+const variableName = getRandomNumber();
+grape
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const greet = name => `Hello, ${name}!`;
